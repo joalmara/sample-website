@@ -1,0 +1,16 @@
+.container{
+    left-margin:100px;
+    max-width: 90%;
+    max-height: 90%;
+
+}
+
+
+
+.carousel-caption
+{
+    background-color: grey;
+    opacity: 0.9;
+    padding: 20px;
+
+}

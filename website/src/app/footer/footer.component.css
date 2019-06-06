@@ -1,0 +1,25 @@
+.footer {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    background-color: black;
+    color: #fff;
+  }
+
+  .footer-text{
+      display: flex;
+      justify-content: space-around;
+      width:40%;
+  }
+
+  .footer-text li
+  {
+    list-style:none;
+
+  }
+  .footer-text a{
+      text-decoration: none;
+      letter-spacing: 3px;
+      font-weight:bold;
+      font-size:14px;
+
+  }
