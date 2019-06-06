@@ -1,3 +1,7 @@
+body{
+  background-color:black;
+}
+
 section.features .section-heading {
     margin-bottom: 100px;
   }
@@ -44,4 +48,16 @@ section.features .section-heading {
     background: linear-gradient(to left, #7b4397, #dc2430);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+  }
+
+  h3{
+    color:white;
+  }
+
+  li{
+    color:white;
+  }
+
+  p{
+    color:white;
   }

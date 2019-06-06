@@ -59,7 +59,7 @@
   
   .nav-tabs .nav-link.active,
   .nav-tabs .nav-item.show .nav-link {
-    color: #495057;
+    color: white;
     background-color: #fff;
     border-color: #dee2e6 #dee2e6 #fff;
   }
@@ -85,6 +85,7 @@
     -ms-flex: 1 1 auto;
     flex: 1 1 auto;
     text-align: center;
+    color:white;
   }
   
   .nav-justified .nav-item {
@@ -102,6 +103,7 @@
   
   .tab-content > .active {
     display: block;
+    color:white;
   }
   
   .navbar {
@@ -118,6 +120,8 @@
     -ms-flex-pack: justify;
     justify-content: space-between;
     padding: 0.5rem 1rem;
+    background-color: black;
+    
   }
   
   .navbar > .container,

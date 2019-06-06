@@ -1,13 +1,20 @@
+body{
+  background-color:black;
+}
+
 section.features .section-heading {
     margin-bottom: 100px;
   }
   
   section.features .section-heading h2 {
     margin-top: 0;
+    color:white;
+
   }
   
   section.features .section-heading p {
     margin-bottom: 0;
+    color:white;
   }
   
   section.features .device-container,
@@ -34,6 +41,7 @@ section.features .section-heading {
   
   section.features .feature-item h3 {
     font-size: 30px;
+    color:white;
   }
   
   section.features .feature-item i {
@@ -44,4 +52,18 @@ section.features .section-heading {
     background: linear-gradient(to left, #7b4397, #dc2430);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+  }
+
+  h3{
+    color:white;
+  }
+  p
+  {
+    color:white;
+  }
+
+  hr{
+    border-top: 1px dashed white;
+
+
   }
