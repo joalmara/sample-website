@@ -98,4 +98,17 @@ section.features .section-heading {
     font-size: .875rem;
     color: #888;
   }
+
+
+  ul{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0;
+    list-style: none;
+    line-height: 1.4;
+  }
   
+  li{
+    width: 50%;
+    padding-right: 4rem;
+  }
