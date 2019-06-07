@@ -67,3 +67,35 @@ section.features .section-heading {
 
 
   }
+
+  
+  .specifications{
+    border-top: 1px solid white;
+    width: auto;
+
+  }
+
+  h4{
+    border-bottom: 1px solid #888;
+    padding-bottom: .3125rem;
+    margin-bottom: .3125rem;
+    font-size: .6875rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #888;
+  }
+
+  .spec{
+    margin: 0 0 1rem;
+    padding: 0;
+    font-size: 2rem;
+    text-align:left;
+    color: white;
+  }
+
+  .tinyspec
+  {
+    font-size: .875rem;
+    color: #888;
+  }
+  
