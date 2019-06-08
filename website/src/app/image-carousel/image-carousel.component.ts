@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { CarouselModule } from 'ngx-bootstrap/carousel';
 
 @Component({
   selector: 'app-image-carousel',
@@ -7,9 +8,14 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ImageCarouselComponent implements OnInit {
 
+  images = [1, 2, 3].map(() => `https://picsum.photos/900/500?random&t=${Math.random()}`);
+
   constructor() { }
 
   ngOnInit() {
   }
+  
+
+  
 
 }

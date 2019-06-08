@@ -17,6 +17,7 @@ import { ImageCarouselComponent } from './image-carousel/image-carousel.componen
 import { MilestonesComponent } from './milestones/milestones.component';
 import { FooterComponent } from './footer/footer.component';
 import { AboutComponent } from './about/about.component';
+import {NgbModule} from '@ng-bootstrap/ng-bootstrap';
 
 @NgModule({
   declarations: [
@@ -35,7 +36,8 @@ import { AboutComponent } from './about/about.component';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    CarouselModule.forRoot()
+    CarouselModule.forRoot(),
+    NgbModule
   ],
   providers: [],
   bootstrap: [AppComponent]
